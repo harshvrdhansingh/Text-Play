@@ -112,7 +112,7 @@ export default function TextForm(props) {
 
         <button
           type="button"
-          className="btn btn-outline-danger mx-1 my-1"
+          className="btn btn-outline-info mx-1 my-1"
           onClick={handleremoveextraspacesClick}
         >
           Remove extra space
@@ -120,7 +120,7 @@ export default function TextForm(props) {
 
         <button
           type="button"
-          className="btn btn-outline-info mx-1 my-1"
+          className="btn btn-outline-danger mx-1 my-1"
           onClick={handleclearClick}
         >
           Clear Text
